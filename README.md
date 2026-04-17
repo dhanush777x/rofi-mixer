@@ -7,12 +7,15 @@ Rofi-mixer allows you to manage your speakers, apps and microphones on systems w
 ## Usage
 
 ### Run rofi-mixer
+
 ```bash
 rofi-mixer
 ```
 
 ### Use it
+
 There are three available modes:
+
 - **output** (speakers and the default)
 - **applications**
 - **input** (microphones, you have to switch to)
@@ -21,20 +24,19 @@ There are three available modes:
 
 ## Shortcuts
 
-| Shortcut | Action |
-|----------|--------|
-| `+`, `=` | Increase volume by 5 |
-| `-`, `_` | Decrease volume by 5 |
-| `Alt+m` | Mute device |
+| Shortcut     | Action                |
+| ------------ | --------------------- |
+| `+`, `=`     | Increase volume by 5  |
+| `-`, `_`     | Decrease volume by 5  |
+| `Alt+m`      | Mute device           |
 | `Ctrl+equal` | Equalize L+R Speakers |
-
 
 ## Installation
 
 Clone the repository and install the scripts to `~/.local/bin/`:
 
 ```bash
-git clone https://github.com/Dhanush-777x/rofi-mixer.git && \
+git clone https://github.com/dhanush777x/rofi-mixer.git && \
 mkdir -p ~/.local/bin && \
 cp rofi-mixer/src/rofi-mixer rofi-mixer/src/rofi-mixer.py ~/.local/bin/ && \
 chmod +x ~/.local/bin/rofi-mixer ~/.local/bin/rofi-mixer.py && \
@@ -43,6 +45,7 @@ source ~/.bashrc
 ```
 
 This command will:
+
 1. Clone the dotfiles repository
 2. Create `~/.local/bin/` directory if it doesn't exist
 3. Copy `rofi-mixer` and `rofi-mixer.py` from `src/` to `~/.local/bin/`
